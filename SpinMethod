@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public void spin() {
         Random rand = new Random();
         int n = rand.nextInt(size) + 1;
