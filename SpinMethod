@@ -1,0 +1,9 @@
+public void spin() {
+        Random rand = new Random();
+        int n = rand.nextInt(size) + 1;
+        int i = 0;
+        while (i < n) {
+            back = back.next;
+            i++;
+        }
+    }
